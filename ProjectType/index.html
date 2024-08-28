@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typing Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Typing Speed Challenge</h1>
+    <div id="wordDisplay" class="fade-in"></div>
+    <input type="text" id="wordInput" placeholder="Type here...">
+    <div id="scoreDisplay">Score: 0</div>
+    <button id="resetButton">Restart Game</button>
+  </div>
+
+  <!-- Load multiple sound effects -->
+  <audio id="clickSound1" src="key-press-1.wav" preload="auto"></audio>
+  <audio id="clickSound2" src="key-press-2.wav" preload="auto"></audio>
+  <audio id="clickSound3" src="key-press-3.wav" preload="auto"></audio>
+  <audio id="clickSound4" src="key-press-4.wav" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
